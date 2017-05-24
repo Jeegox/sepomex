@@ -1,0 +1,31 @@
+{
+  "appenders": [
+    {
+      "type": "dateFile",
+      "filename": "logs/server.log",
+      "pattern": "-yyyy-MM-dd",
+      "numBackups": 7,
+      "category": "server"
+    },
+    {
+      "type": "dateFile",
+      "filename": "logs/console.log",
+      "pattern": "-yyyy-MM-dd",
+      "numBackups": 7,
+      "category": "console"
+    },
+    {
+      "type": "logLevelFilter",
+      "level": "ERROR",
+      "appender": {
+        "type": "file",
+        "filename": "logs/errors.log"
+      }
+    },
+    {
+      "type": "console"
+    }
+  ],
+  "type": "clustered",
+  "replaceConsole": true
+}

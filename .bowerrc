@@ -1,0 +1,13 @@
+{
+  "directory": "bower_components/",
+  "timeout": 120000,
+  "color": true,
+  "save": true,
+  "registry": "https://bower.herokuapp.com",
+  "json": "bower.json",
+  "scripts": {
+    "preinstall": "",
+    "postinstall": "",
+    "preuninstall": ""
+  }
+}

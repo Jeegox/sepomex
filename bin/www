@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var app = require('../src/server/server').app;
+var http = require('http');
+var server = http.createServer(app);

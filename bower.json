@@ -1,0 +1,24 @@
+{
+  "name": "sepomex",
+  "description": "SEPOMEX information consulting service",
+  "main": "index.js",
+  "authors": [
+    "Israel Hernandez <iaejean@hotmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "SEPOMEX",
+    "WS",
+    "WebService",
+    "RestFul",
+    "API"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
