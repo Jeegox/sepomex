@@ -25,6 +25,7 @@
   "author": "Israel Hernandez <iaejean@hotmail.com>",
   "license": "ISC",
   "devDependencies": {
+    "@types/adm-zip": "^0.4.31",
     "@types/body-parser": "^1.16.3",
     "@types/cookie-parser": "^1.3.30",
     "@types/cron": "^1.2.1",
@@ -33,6 +34,8 @@
     "@types/log4js": "0.0.32",
     "@types/mocha": "^2.2.41",
     "@types/node": "^7.0.21",
+    "@types/request": "0.0.43",
+    "@types/request-promise": "^4.1.33",
     "@types/sequelize": "^4.0.55",
     "gulp": "^3.9.1",
     "mocha": "^3.4.1",
@@ -42,6 +45,7 @@
   },
   "dependencies": {
     "@angular/core": "^4.1.3",
+    "adm-zip": "^0.4.7",
     "body-parser": "^1.17.2",
     "class-validator": "^0.7.0",
     "compression": "^1.6.2",
@@ -55,9 +59,12 @@
     "mongoose": "^4.10.0",
     "path": "^0.12.7",
     "reflect-metadata": "^0.1.2",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
     "rxjs": "^5.0.1",
     "sequelize": "^3.30.4",
     "ts-express-decorators": "^1.4.6",
+    "typescript-ioc": "^0.4.1",
     "zone.js": "^0.8.4"
   }
 }

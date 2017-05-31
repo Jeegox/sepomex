@@ -1,6 +1,11 @@
 {
   "appenders": [
     {
+      "type": "file",
+      "filename": "logs/server.log",
+      "category": "tests"
+    },
+    {
       "type": "dateFile",
       "filename": "logs/server.log",
       "pattern": "-yyyy-MM-dd",
